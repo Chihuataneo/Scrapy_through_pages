@@ -2,11 +2,10 @@
 """
 Created on Sat Apr 22 17:45:04 2017
 
-@author: Administrator
+@author: YoungHao
 """
 
 import scrapy
-import pymysql
 
 class QuotesSpider(scrapy.Spider):
     name = "quotes"
